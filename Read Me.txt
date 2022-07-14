@@ -1,0 +1,3 @@
+We use a GAN to generate images from the original set of images and then compare the generate images and the original images and try to get them as close to the original as possible.
+
+For the secind code we apply PCA on the CIFAR-10 dataset to reduce the dimensionality of the images and use the reduced dimension data for classification. We also compare and contrast the performance of the same architecture when you use the classifier on original data vs. on reduced dimensional data. The comparisons can be done using metrics such as accuracy, errors, training-testing time, etc.
